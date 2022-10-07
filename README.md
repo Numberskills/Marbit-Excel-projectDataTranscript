@@ -26,7 +26,7 @@ Known issues
 ------------
 * Set to actual max number of PC/PL (no scaleability)
 * Source path cannot contain single quotes (')
-* PL/PC name in column A must correlate exactly to source file name (i.e. "PC Michael Reinholtz" -> "\Projektuppföljning 2022 PC Michael Reinoltz.xlsx")
+* PL/PC name in column A must correlate exactly to source file name (i.e. "PC Michael Reinholtz" -> "[...]\Projektuppföljning 2022 PC Michael Reinholtz.xlsx")
 * PL/PC files must be closed when running the script
 
 -------------------------------
