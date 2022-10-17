@@ -30,3 +30,26 @@ Known issues
 * PL/PC files must be closed when running the script
 
 -------------------------------
+
+v.1.1
+Changes
+-------------
+* Pl_mapping.txt is now retreived from source library
+* Changed names of labels in ImportForm to "PL-bibliotek" and "Rapportbibliotek"
+
+Additions
+-------------
+* Error control for failing to read pl_mapping.txt from source library
+* In each of the PL/PC files
+  ○ Kill references in last months result (columns O:S)
+  ○ Changes "Räkenskapsmånad" in PBI Resultat per projekt inkl interna intäkter o kostnader.xlsx
+  ○ Changes "Räkenskapsår" in in PBI Resultat per projekt inkl interna intäkter o kostnader.xlsx depending on choosen month
+  ○ Copies values from the current PL to PL file (columns A:E -> currentMonth!A:E)
+	
+Constraints
+-------------
+* Filenames of PL files cannot contain 'å', 'ä' or 'ö'
+* Maximum number of 100 PL files
+* Ranges for data transfer and lookups are static
+* Names of files, sheets and pivot tables are static
+
