@@ -1,8 +1,0 @@
-Anders, Granath, AG
-Hans, Ahlquist, HA
-Henrik, Lindgren, HL
-Mikael, Hallin, MH
-Petri, Hietala, PH
-Pia, Lindström, PL
-Simon, Gifting, SG
-Torbjörn, Dahl, TD
