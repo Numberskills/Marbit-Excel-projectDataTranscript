@@ -31,7 +31,7 @@ Known issues
 
 -------------------------------
 
-v.1.1
+v1.1
 Changes
 -------------
 * Pl_mapping.txt is now retreived from source library
@@ -53,3 +53,21 @@ Constraints
 * Ranges for data transfer and lookups are static
 * Names of files, sheets and pivot tables are static
 
+-------------------------------
+
+v2.0
+Bug fixes
+-------------
+* Removed unintentional MsgBox left over from development
+* Changed old references to new naming of controls (v1.1)
+* Code no longer requires a valid source directory to pl_mapping.txt if monthlyFollowUpBtn is not selected
+* Reading settings from settings.xlsx instead of pl_mapping.txt and filtered_projects.txt as a UTF8 to  UTF16 work around
+* Recalculation of all filters where month 1 was JAN earlier, but is now MAY
+
+Additions
+-------------
+* Added changes to filters in PBI Resultat per projekt Inkl interna intäkter o kostnader Ack all tid.xslx
+* Added copy of project data > 5MSEK to PL file
+* Added changes to filters in PBI Resultat per projekt Inkl interna intäkter o kostnader.xslx
+* Added copy of last year's results to PL file
+* Progress dialog
