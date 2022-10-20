@@ -10,6 +10,7 @@ Scripts intially created by Michael Reinholtz
 -------------------------------
 
 v1.0
+
 Functionality
 -------------
 Creating relations in the follow-up file
@@ -32,6 +33,7 @@ Known issues
 -------------------------------
 
 v1.1
+
 Changes
 -------------
 * Pl_mapping.txt is now retreived from source library
@@ -56,6 +58,7 @@ Constraints
 -------------------------------
 
 v2.0
+
 Bug fixes
 -------------
 * Removed unintentional MsgBox left over from development
